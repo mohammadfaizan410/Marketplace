@@ -1,0 +1,17 @@
+﻿@model Business.Models.UserModel
+
+<form asp-controller="Home" asp-area="Account" asp-action="Login" method="post" class="w-75 bg-light p-5 d-flex w-75 gap-4 flex-column">
+    <h4>Please Login to head to your Dashboard!</h4>
+    <div class="form-group">
+        <label asp-for="UserName" class="control-label"></label>
+        <input asp-for="UserName" class="form-control" />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="control-label"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <a asp-action="Register" asp-area="Account" asp-controller="Home">Register Instead!</a>
+</form>

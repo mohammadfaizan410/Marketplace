@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div class="w-75 bg-light p-5 d-flex w-75 gap-4 flex-column" style="max-height:80vh; overflow-x:auto">
+        <label>User Role: @ViewBag.Role</label>
+    <div class="d-flex w-100 justify-content-between align-items-center">
+    <h4>Welcome To Your Dashboard, @(User.Identity.Name)</h4>
+    <div>
+            <a asp-action="EditAccount" asp-controller="User" class="btn btn-secondary">EditAccount</a>
+            <a asp-action="SignOut" asp-area="Account" asp-controller="Home" class="btn btn-secondary">Logout</a>
+    </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center w-100">
+    <h4>Here are your products:</h4>
+    <a asp-action="AddProduct" asp-controller="Product" class="btn btn-primary">Add Product</a>
+    </div>
+    <table class="table">
+        <thead>
+            <th>Title</th>
+        <th>Description</th>
+        <th>Categories</th>
+        <th>Actions</th>
+        </thead>
+    @foreach (var product in ViewBag.products as List<Business.Models.ProductModel>)
+    {
+        <tr>
+            <td>@product.ProductName</td>
+            <td>@product.ProductDescription</td>
+            <td>
+                @foreach(var cat in product.CategoryNamesOutput)
+                {
+                    <p>@(cat) </p>          
+                }
+            </td>
+            <td>
+                        <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@(product.Id)" class="btn btn-primary">Update</a>
+                        <a asp-action="DeleteProduct" asp-controller="Product" class="btn btn-danger" asp-route-id=@(product.Id)>Delete</a>
+
+            </td>
+            </tr>
+    }
+    </table>
+    </div>
+}

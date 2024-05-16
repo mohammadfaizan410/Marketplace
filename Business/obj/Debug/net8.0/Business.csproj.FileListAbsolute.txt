@@ -1,0 +1,15 @@
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\bin\Debug\net8.0\Business.dll
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\ref\Business.dll
