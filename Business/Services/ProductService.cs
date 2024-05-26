@@ -15,6 +15,8 @@ namespace Business.Services
             bool Add(ProductModel model);
         bool Delete(int id);
         bool Update(ProductModel model);
+        bool incrementStock(int id);
+        bool decrementStock(int id);
         IQueryable<ProductModel> Query();
         }
      public class ProductService : BaseService, IProductService
@@ -48,6 +50,8 @@ namespace Business.Services
             {
                 ProductName = product.ProductName,
                 ProductDescription = product.ProductDescription,
+                UnitPrice = product.Price,
+                StockAmount = product.StockAmount,
                 User = user,
             };
             foreach (var category in existingCategories)
@@ -76,6 +80,10 @@ namespace Business.Services
                     ProductName = e.ProductName,
                     ProductDescription = e.ProductDescription,
                     UserId = e.Userid,
+                    StockAmount = e.StockAmount,
+                    Price = e.UnitPrice,
+                    Availibility = e.StockAmount <= 0 ? "Out of Stock" : "In Stock",
+                    PriceOutput =  e.UnitPrice.ToString("C2"),
                     CategoryIdsInput = e.ProductCategories.Select(pc => pc.CategoryId).ToList(),
                     CategoryNamesOutput = e.ProductCategories.Select(pc => pc.Category.CategoryName).ToList(),
                 });
@@ -91,16 +99,18 @@ namespace Business.Services
         public bool Update(ProductModel model)
         {
             var productEntity = _db.Products
-                .Include(p => p.ProductCategories) // Include ProductCategories navigation property
+                .Include(p => p.ProductCategories)
                 .FirstOrDefault(p => p.Id == model.Id);
 
             if (productEntity == null)
             {
-                return false; // Product not found
+                return false;
             }
 
             productEntity.ProductName = model.ProductName;
             productEntity.ProductDescription = model.ProductDescription;
+            productEntity.UnitPrice = model.Price;
+            productEntity.StockAmount = model.StockAmount;
 
             var categoriesToRemove = productEntity.ProductCategories
                 .Where(pc => !model.CategoryIdsInput.Contains(pc.CategoryId))
@@ -129,6 +139,21 @@ namespace Business.Services
             return true;
         }
 
-
+        public bool incrementStock(int id)
+        {
+            var prod = _db.Products.FirstOrDefault(p => p.Id == id);
+            prod.StockAmount += 1;
+            _db.SaveChanges();
+             return true;
+        }
+        public bool decrementStock(int id)
+        {
+            var prod = _db.Products.FirstOrDefault(p => p.Id == id);
+            prod.StockAmount -= 1;
+            _db.SaveChanges();
+            return true;
+        }
     }
+
+
 }

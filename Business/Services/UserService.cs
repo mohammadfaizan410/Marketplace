@@ -57,7 +57,7 @@ namespace Business.Services
             {
                 UserName = model.UserName.Trim(),
                 Password = model.Password.Trim(),
-                RoleId = model.RoleId ?? 0,
+                RoleId = model.RoleId ?? 2,
             };
             _db.Users.Add(userEntity);
             _db.SaveChanges();

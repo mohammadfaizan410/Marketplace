@@ -9,11 +9,41 @@
     <a asp-action="SignOut" asp-area="Account" asp-controller="Home" class="btn btn-secondary">Logout</a>
     <a asp-action="EditAccount" asp-controller="User" class="btn btn-secondary">EditAccount</a>
     </div>
+
     <table class="table" style="max-height: 500px; overflow-x:auto;">
+        <a class="btn btn-primary" asp-action="AddCategory" asp-controller="User">Add Category</a>
+        <thead>
+            <tr>
+                <th>Category Name</th>
+                <th>Actions</th>
+            </tr>
+            @foreach (var cat in ViewBag.Categories as List<Business.Models.CategoryModel>)
+            {
+                <tr>
+                    <td>@cat.CategoryName</td>
+                    @if (cat.Id != 1 && cat.Id != 2)
+                    {
+                        <td>
+                            <a class="btn btn-danger" asp-action="DeleteCategory" asp-controller="User" asp-route-id=@(cat.Id)>Delete</a>
+                            <a class="btn btn-danger" asp-action="UpdateCategory" asp-controller="User" asp-route-id=@(cat.Id)>Update</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td></td>
+                    }
+                </tr>
+            }
+
+        </thead>
+    </table>
+    <table class="table" style="max-height: 500px; overflow-x:auto;">
+        <a class="btn btn-primary" asp-action="AddRole" asp-controller="User">Add Role</a>
         <thead>
             <tr>
                 <th>Role</th>
                 <th>Count</th>
+                <th>Actions</th>
             </tr>
             @foreach (var role in ViewBag.AllRoles as List<Business.Models.RoleModel>)
             {
@@ -22,6 +52,17 @@
                     <td>
                         @(role.UserCountOutput)
                     </td>
+                    @if(role.Name != "Admin" && role.Name != "User")
+                    {
+                        <td>
+                            <a class="btn btn-danger" asp-action="DeleteRole" asp-controller="User" asp-route-id=@(role.Id)>Delete</a>
+                            <a class="btn btn-danger" asp-action="UpdateRole" asp-controller="User" asp-route-id=@(role.Id)>Update</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td></td>    
+                    }
                 </tr>
             }
 

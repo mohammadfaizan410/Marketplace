@@ -13,3 +13,4 @@ C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8
 C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\refint\Business.dll
 C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.pdb
 C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\ref\Business.dll
+C:\Users\Microsoft\Desktop\Marketplacefolder\Marketplace\Business\obj\Debug\net8.0\Business.sourcelink.json

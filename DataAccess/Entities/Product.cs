@@ -18,6 +18,12 @@ namespace DataAccess.Entities
         [StringLength(20)]
         public string ProductDescription { get; set; }
 
+        [Required]
+        public decimal UnitPrice { get; set; }
+
+        [Required]
+        public int StockAmount {  get; set; }
+
         public User User { get; set; }
 
         //has one to many relation user being the one side

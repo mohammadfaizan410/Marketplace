@@ -37,6 +37,10 @@ namespace MVC.Controllers
         public IActionResult AddProduct(ProductModel model)
 
         {
+            Console.WriteLine($"here is the stock amount sent from the model {model.StockAmount}");
+            Console.WriteLine($"here is the price sent from the model {model.Price}");
+            ModelState.Remove(nameof(model.PriceOutput));
+            ModelState.Remove(nameof(model.Availibility));
             if (!ModelState.IsValid)
             {
                 var errors = ModelState.Values.SelectMany(v => v.Errors.Select(e => e.ErrorMessage));
@@ -77,8 +81,12 @@ namespace MVC.Controllers
         [HttpPost]
         public IActionResult UpdateProduct(ProductModel model)
         {
+            ModelState.Remove(nameof(model.PriceOutput));
+            ModelState.Remove(nameof(model.Availibility));
             if (!ModelState.IsValid)
             {
+                List<Category> categories = _categoryService.GetAllCategories();
+                ViewBag.Categories = categories;
                 return View(model);
             }
             if(model.CategoryIdsInput.Count == 0)
@@ -93,6 +101,23 @@ namespace MVC.Controllers
             return RedirectToAction("UserView", "User");
 
             
+        }
+
+        [Authorize(Roles = "User")]
+        [HttpGet]
+        public IActionResult IncremendStock(int id)
+        {
+            _productService.incrementStock(id);
+            return RedirectToAction("UserView", "User");
+        }
+
+
+        [Authorize(Roles = "User")]
+        [HttpGet]
+        public IActionResult decrementStock(int id)
+        {
+            _productService.decrementStock(id);
+            return RedirectToAction("UserView", "User");
         }
 
 

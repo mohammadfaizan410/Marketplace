@@ -13,11 +13,11 @@ namespace Business.Models
     public class UserModel : Record
     {
         #region Properties copied from the related entity
-        [DisplayName("User Name")] 
-        [Required(ErrorMessage = "{0} is required!")] 
+        [DisplayName("User Name")]
+        [Required(ErrorMessage = "{0} is required!")]
         [MinLength(3, ErrorMessage = "{0} must be minimum {1} characters!")]
         [MaxLength(10, ErrorMessage = "{0} must be maximum {1} characters!")]
-        public string UserName { get; set; }
+        public string? UserName { get; set; }
 
         [DisplayName("Password")]
         [Required(ErrorMessage = "{0} is required!")]

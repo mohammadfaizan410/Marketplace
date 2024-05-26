@@ -14,6 +14,9 @@ namespace Business.Services
     {
         public List<RoleModel> GetAllRoles();
         public IQueryable<RoleModel> Query();
+        public void addRole(RoleModel role);
+        public void removeRole(int id);
+        public void UpdateRole(RoleModel role);
        }
     public class RoleService : BaseService, IRoleService
     {
@@ -35,7 +38,30 @@ namespace Business.Services
                     Name = e.Name
                 });
         }
+        public void addRole(RoleModel role)
+        {
+            var roleEntity = new Role()
+            {
+                Name = role.Name,
+            };
+            _db.Roles.Add(roleEntity);
+            _db.SaveChanges();
+        }
 
-      
+        public void removeRole(int id)
+        {
+            var roleEntity = _db.Roles.FirstOrDefault(r => r.Id == id);
+            _db.Roles.Remove(roleEntity);
+            _db.SaveChanges();
+        }
+
+        public void UpdateRole(RoleModel role)
+        {
+            var roleEntity = _db.Roles.FirstOrDefault(r => r.Id == role.Id);
+            roleEntity.Name = role.Name;
+            _db.Update(roleEntity);
+            _db.SaveChanges();
+
+        }
     }
 }

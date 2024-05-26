@@ -9,6 +9,7 @@ using MVC.Models;
 using System.Diagnostics;
 using System.Security.Claims;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace MVC.Controllers
 {
@@ -30,9 +31,9 @@ namespace MVC.Controllers
         }
 
         [Authorize]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var role = User.FindFirst(ClaimTypes.Role).Value;
+           var role = User.FindFirst(ClaimTypes.Role).Value;
             if(role == "Admin")
             {
 
@@ -49,6 +50,7 @@ namespace MVC.Controllers
 
                 ViewBag.Role = User.FindFirst(ClaimTypes.Role).Value;
                 ViewBag.AllRoles = _roleService.Query().ToList();
+                ViewBag.Categories = _categoryService.Query().ToList();
                 return View();
             }
             else
@@ -107,6 +109,7 @@ namespace MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> EditAccount(UserModel user)
         {
+            ModelState.Remove(nameof(user.UserName));
             if (ModelState.IsValid)
             {
                 string res = _userService.Update(user);
@@ -121,7 +124,6 @@ namespace MVC.Controllers
                     ModelState.AddModelError(nameof(user.RoleId), "Username is already taken!");
                     return View(user);
                 }
-                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
                 return RedirectToAction("Index", "User", new { area = "" });
 
             }
@@ -130,5 +132,117 @@ namespace MVC.Controllers
         
         }
 
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult DeleteRole(int id)
+        {
+            Console.WriteLine($"here is the id: {id}");
+            _roleService.removeRole(id);
+            return RedirectToAction("Index", "user", new { area = "" });
+        }
+
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult AddRole()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult UpdateRole(int id)
+        {
+            var roleModel = _roleService.Query().FirstOrDefault(r => r.Id == id);
+            return View(roleModel);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public IActionResult UpdateRole(RoleModel roleModel)
+        {
+            if (!ModelState.IsValid)
+            {
+            return View(roleModel);
+            }
+            else
+            {
+                _roleService.UpdateRole(roleModel);
+                return RedirectToAction("index", "User", new { area = "" });
+            }
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public IActionResult AddRole(RoleModel model)
+        {
+            ModelState.Remove(nameof(model.UserCountOutput));
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            else
+            {
+                _roleService.addRole(model);
+                return RedirectToAction("Index", "User", new { area = "" });
+            }
+        }
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult DeleteCategory(int id)
+        {
+            _categoryService.RemoveCategory(id);
+            return RedirectToAction("Index", "user", new { area = "" });
+        }
+
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult AddCategory()
+        {
+            return View();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet]
+        public IActionResult UpdateCategory(int id)
+        {
+            var roleModel = _roleService.Query().FirstOrDefault(r => r.Id == id);
+            return View(roleModel);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public IActionResult UpdateCategory(CategoryModel categoryModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(categoryModel);
+            }
+            else
+            {
+                _categoryService.UpdateCategory(categoryModel);
+                return RedirectToAction("index", "User", new { area = "" });
+            }
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        public IActionResult AddCategory(CategoryModel categoryModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            else
+            {
+                _categoryService.AddCategory(categoryModel);
+                return RedirectToAction("Index", "User", new { area = "" });
+            }
+        }
     }
 }

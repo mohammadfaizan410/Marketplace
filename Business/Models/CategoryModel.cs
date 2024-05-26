@@ -10,7 +10,7 @@ namespace Business.Models
 {
     public class CategoryModel:Record
     {
-        [Required]
+        [Required(ErrorMessage= "Please enter a category name")]
         [StringLength(30)]
         public string CategoryName { get; set; }
     }

@@ -20,6 +20,8 @@
             <th>Title</th>
         <th>Description</th>
         <th>Categories</th>
+        <th>Availibility</th>
+        <th>Price</th>
         <th>Actions</th>
         </thead>
     @foreach (var product in ViewBag.products as List<Business.Models.ProductModel>)
@@ -33,6 +35,17 @@
                     <p>@(cat) </p>          
                 }
             </td>
+                    <td>
+                        @if(product.StockAmount > 0)
+                        {   
+                        <a class="btn btn-danger" asp-action="decrementStock" asp-controller="Product" asp-route-id="@(product.Id)">-</a>
+                        }else{
+                            <button class="btn btn-secondary" disabled>-</button>
+                        }
+                    <label class=@(product.StockAmount > 0 ? "text-primary" : "text-danger" )>@product.Availibility {@product.StockAmount} </label>
+                    <a class="btn btn-primary" asp-action="IncremendStock" asp-controller="Product" asp-route-id="@(product.Id)">+</a></td>
+            <td>@product.PriceOutput</td>
+
             <td>
                         <a asp-action="UpdateProduct" asp-controller="Product" asp-route-id="@(product.Id)" class="btn btn-primary">Update</a>
                         <a asp-action="DeleteProduct" asp-controller="Product" class="btn btn-danger" asp-route-id=@(product.Id)>Delete</a>

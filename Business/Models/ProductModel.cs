@@ -25,6 +25,18 @@ namespace Business.Models
 
         [DisplayName("Categories")]
         public List<String>? CategoryNamesOutput { get; set; }
+        [Display(Name = "Price")]
+        [Required(ErrorMessage = "Price is required.")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "Price must be greater than 0.")]
+        public decimal Price { get; set; }
+
+        public string PriceOutput { get; set; }
+
+        [Required(ErrorMessage = "Please enter a value for the stock amount!")]
+        [Range(1, int.MaxValue, ErrorMessage = "Stock amount must be greater than 0.")]
+        public int StockAmount { get; set; }
+
+        public string Availibility {  get; set; } 
 
         [Required]
         public int UserId { get; set; }

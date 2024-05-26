@@ -1,0 +1,13 @@
+﻿@model Business.Models.CategoryModel
+
+<form asp-controller="User" asp-action="UpdateCategory" method="post" class="w-75 bg-light p-5 d-flex w-75 gap-4 flex-column">
+    <h4>Update Role:</h4>
+    <input asp-for="Id" style="display: none" />
+    <div class="form-group">
+        <label asp-for="CategoryName" class="control-label"></label>
+        <input asp-for="CategoryName" class="form-control" />
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Confirm Changes</button>
+    <a asp-action="Index" asp-controller="User" class="btn btn-secondary">Go Back</a>
+</form>

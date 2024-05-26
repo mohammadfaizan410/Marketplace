@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDB19A8-911F-430D-B38A-1DCB6E8179C3}|DataAccess\\DataAccess.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\dataaccess\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDB19A8-911F-430D-B38A-1DCB6E8179C3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDB19A8-911F-430D-B38A-1DCB6E8179C3}|DataAccess\\DataAccess.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\dataaccess\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDB19A8-911F-430D-B38A-1DCB6E8179C3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDB19A8-911F-430D-B38A-1DCB6E8179C3}|DataAccess\\DataAccess.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\dataaccess\\contexts\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDB19A8-911F-430D-B38A-1DCB6E8179C3}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\contexts\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\areas\\account\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\account\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\addcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\addrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\editaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\editaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VendorDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\userview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\userview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\areas\\account\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\account\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C72FE527-B802-4932-B83C-7B267E97C208}|Business\\Business.csproj|solutionrelative:business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\areas\\account\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\account\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\areas\\account\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\areas\\account\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|c:\\users\\microsoft\\desktop\\marketplacefolder\\marketplace\\mvc\\views\\user\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D7B987D-6131-419B-A53A-AA1D05A6BEE0}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\user\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\DataAccess\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\DataAccess\\Entities\\User.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:21:21.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Business\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\UserModel.cs",
+              "RelativeToolTip": "Business\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:20:51.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\DataAccess\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\DataAccess\\Entities\\Product.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:20:15.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Db.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\DataAccess\\Contexts\\Db.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Contexts\\Db.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\DataAccess\\Contexts\\Db.cs",
+              "RelativeToolTip": "DataAccess\\Contexts\\Db.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T08:20:04.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\AddCategory.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\AddCategory.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\AddCategory.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\AddCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T23:16:04.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Business\\Services\\CategoryService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T23:11:32.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\UpdateRole.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\UpdateRole.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\UpdateRole.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\UpdateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T23:07:48.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "Business\\Models\\RoleModel.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\RoleModel.cs",
+              "RelativeToolTip": "Business\\Models\\RoleModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:12:48.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\AddRole.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\AddRole.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\AddRole.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\AddRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T22:19:21.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\RoleService.cs",
+              "RelativeToolTip": "Business\\Services\\RoleService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:13:54.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/VendorDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-16T21:12:41.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T20:35:46.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\ProductService.cs",
+              "RelativeToolTip": "Business\\Services\\ProductService.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAUwFUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:16:26.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Services\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\UserService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAjwEwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:20:51.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Account\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Account\\Views\\Home\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:54:23.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Account\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Account\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:53:44.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Account\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "MVC\\Areas\\Account\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:53:43.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC\\Areas\\Account\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Areas\\Account\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC\\Areas\\Account\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwGAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:53:12.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\Privacy.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:49:04.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:48:28.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\UserView.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\UserView.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\UserView.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\UserView.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:48:09.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\EditAccount.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\User\\EditAccount.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\User\\EditAccount.cshtml",
+              "RelativeToolTip": "MVC\\Views\\User\\EditAccount.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:38:39.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Program.cs",
+              "RelativeDocumentMoniker": "MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Program.cs",
+              "RelativeToolTip": "MVC\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:37:45.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:37:11.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:33:52.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "Business\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "Business\\Models\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:30:28.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAqwHQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:29:54.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\MVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwDUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:29:39.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "Business\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\Microsoft\\Desktop\\Marketplacefolder\\Marketplace\\Business\\Models\\ProductModel.cs",
+              "RelativeToolTip": "Business\\Models\\ProductModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:29:01.061Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

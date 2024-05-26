@@ -65,6 +65,8 @@ namespace DataAccess.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductName = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     ProductDescription = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    UnitPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    StockAmount = table.Column<int>(type: "int", nullable: false),
                     Userid = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

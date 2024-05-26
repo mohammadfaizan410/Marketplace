@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(Db))]
-    [Migration("20240509230657_initial")]
+    [Migration("20240516191608_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -59,6 +59,12 @@ namespace DataAccess.Migrations
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("StockAmount")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Userid")
                         .HasColumnType("int");
